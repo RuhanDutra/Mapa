@@ -27,6 +27,7 @@ public class App {
                 resultado = num1 * num2;
                 break;
             case "/":
+            // Evita a divisão por 0 
                 if (num2 != 0) {
                     resultado = num1 / num2;
                 }
